@@ -1,12 +1,13 @@
 Package: experiment
-Version: 1.1-4
-Date: 2018-04-30
+Version: 1.2.0
+Date: 2019-08-14
 Title: R Package for Designing and Analyzing Randomized Experiments
 Authors@R: c(
-  person("Kosuke", "Imai", , "kimai@princeton.edu", c("aut", "cre")),
-  person("Zhichao", "Jiang", , "zhichaoj@princeton.edu", c("aut"))
+  person("Kosuke", "Imai", , "imai@harvard.edu", c("aut", "cre")),
+  person("Zhichao", "Jiang", , "zhichaoj@princeton.edu", c("aut")),
+  person("Michael", "Li", , "mlli@mit.edu", c("aut"))
   )
-Maintainer: Kosuke Imai <kimai@princeton.edu>
+Maintainer: Kosuke Imai <imai@harvard.edu>
 Depends: boot, MASS, R (>= 2.4.0)
 Description: Provides various statistical methods for
   designing and analyzing randomized experiments. One functionality
@@ -19,10 +20,11 @@ Description: Provides various statistical methods for
 License: GPL (>= 2)
 URL: https://github.com/kosukeimai/experiment
 BugReports: https://github.com/kosukeimai/experiment/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2018-04-30 14:49:25 UTC; kimai
+Packaged: 2019-08-05 15:47:03 UTC; kimai
 Author: Kosuke Imai [aut, cre],
-  Zhichao Jiang [aut]
+  Zhichao Jiang [aut],
+  Michael Li [aut]
 Repository: CRAN
-Date/Publication: 2018-04-30 15:08:19 UTC
+Date/Publication: 2019-08-05 17:00:02 UTC
