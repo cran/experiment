@@ -1,11 +1,10 @@
 Package: experiment
-Version: 1.2.0
-Date: 2019-08-14
+Version: 1.2.1
+Date: 2022-04-07
 Title: R Package for Designing and Analyzing Randomized Experiments
 Authors@R: c(
   person("Kosuke", "Imai", , "imai@harvard.edu", c("aut", "cre")),
-  person("Zhichao", "Jiang", , "zhichaoj@princeton.edu", c("aut")),
-  person("Michael", "Li", , "mlli@mit.edu", c("aut"))
+  person("Zhichao", "Jiang", , "zhichaoj@princeton.edu", c("aut"))
   )
 Maintainer: Kosuke Imai <imai@harvard.edu>
 Depends: boot, MASS, R (>= 2.4.0)
@@ -18,13 +17,14 @@ Description: Provides various statistical methods for
   two-stage randomized experiments, randomized experiments with 
   noncompliance, and randomized experiments with missing data.
 License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
 URL: https://github.com/kosukeimai/experiment
 BugReports: https://github.com/kosukeimai/experiment/issues
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2
 NeedsCompilation: yes
-Packaged: 2019-08-05 15:47:03 UTC; kimai
+Packaged: 2022-04-12 17:18:25 UTC; kimai
 Author: Kosuke Imai [aut, cre],
-  Zhichao Jiang [aut],
-  Michael Li [aut]
+  Zhichao Jiang [aut]
 Repository: CRAN
-Date/Publication: 2019-08-05 17:00:02 UTC
+Date/Publication: 2022-04-12 18:52:32 UTC
